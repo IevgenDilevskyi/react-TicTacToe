@@ -1,9 +1,12 @@
 import React from 'react'
 
-export default Log = () => {
+const Log = () => {
+
   return (
     <ol>
 
     </ol>
   )
 }
+
+export default Log
