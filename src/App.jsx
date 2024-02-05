@@ -3,6 +3,7 @@ import { GameBoard } from "./components/GameBoard"
 import { useState } from "react"
 import Log from "./components/Log"
 
+
 function App() {
   const [activePlayer, setActivePlayer] = useState('X')
   const [gameTurns, setGameTurns] = useState([])
